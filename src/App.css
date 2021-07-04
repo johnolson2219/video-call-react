@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Benne', serif;
+}
+.home{
+  /* background-color: #1289A7; */
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+.btn-primary{
+  background-color: #F79F1F;
+  /* padding: 5px 10px; */
+ letter-spacing: 2px;
+ font-size: 22px;
+ text-transform: capitalize;
+ border: none !important;
+}
+.btn-primary:hover{
+  background-color: #e60e56;
+}
+.user{
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(150, 115, 184);
+  z-index: 1;
+  border: 10px solid #F79F1F;
+}
+.my{
+  /* width: 50%; */
+  width: 240px;
+  height: 250px;
+  background-color: chocolate;
+  z-index: 999;
+  position: absolute;
+  border: 5px solid #fff;
+  bottom:  10px;
+  right: 10px;
+}
+
+.form-group{
+  width: 250px;
+  
+}
+
+.admit .card{
+  border: none !important;
+  padding: 15px;
+  box-shadow: 0 5px 10px #F79F1F;
+display: flex;
+justify-content:space-between;
+align-items: center;
+flex-direction: row;
+}
+.user video{
+  
+  width: 100%;
+  height: 80vh;
+}
+.my video{
+  width: 250px;
+  height: 250px;
+  margin-top: -150px !important;
+}
+
+@media (max-width:750px)
+{
+ .my{
+  
+  width: 150px;
+  height: 150px;
+  
+ }
+ .my video{
+  width: 150px;
+  height: 150px;
+  margin-top: -180px !important;
+}
+
+}
