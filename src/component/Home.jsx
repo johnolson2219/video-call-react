@@ -119,7 +119,7 @@ const leaveCall=()=>{
                 <div className="my">
                 {
                     
-                    stream && <video playsInline muted ref={myVideo} autoPlay style={{width:'100%',height:'80vh'}} />
+                    stream && <video playsInline  ref={myVideo} autoPlay style={{width:'100%',height:'80vh'}} />
                     }
 
                 </div>
